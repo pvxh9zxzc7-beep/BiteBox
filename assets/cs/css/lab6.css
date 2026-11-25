@@ -1,0 +1,42 @@
+table{
+    border-radius: 25px;
+    border-collapse:collapse;
+
+    background-color: bisque;
+    
+    }
+
+.first{
+    color:rgba(239, 11, 11, 0.975);
+    background-color:rgb(239, 206, 13)
+}    
+
+.Discount{
+    color:rgba(239, 11, 11, 0.975);
+    background-color:rgb(239, 206, 13);
+}
+
+.pizza{
+    color:rgb(240, 206, 13);
+    background-color:rgba(239, 11, 11, 0.975);
+}
+
+.burger{
+    color:rgb(240, 206, 13);
+    background-color:rgba(239, 11, 11, 0.975);
+}
+
+.pasta{
+    color:rgb(240, 206, 13);
+    background-color:rgba(239, 11, 11, 0.975);
+}
+
+.sandwich{
+    color:rgb(240, 206, 13);
+    background-color:rgba(239, 11, 11, 0.975);
+}
+
+.dessert{
+    color:rgb(240, 206, 13);
+    background-color:rgba(239, 11, 11, 0.975);
+}

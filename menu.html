@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteBox</title>
+    <style>
+      ol{
+        background-color: antiquewhite;
+        padding: 10px;
+      }
+
+      .navlink{
+        padding: 8px;
+        margin: 8px;
+        display: inline-block;
+        font-weight: bold;
+      }
+
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      a:hover{
+        color: rgb(153, 12, 12);
+        font-size: larger;
+      }
+  
+      .cardcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+        margin: 1%;
+        padding: 5px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        background-color: rgb(143, 3, 3);
+        box-shadow: 10px 10px 3px black;
+        border: 5px solid rgba(228, 210, 10, 0.973);
+        border-radius: 30px;
+        color: rgb(236, 225, 10);
+        
+
+      }
+      .card{
+        background-color: cornsilk;
+        color: brown;
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+
+      }
+      .cardimg{
+        height: 200px;
+        width: 200px;
+        margin: 2%;
+        border-radius: 30px;
+        box-shadow: 10px 10px 3px black;
+
+      }
+      .catagories{
+        background-color: rgb(239, 190, 13);
+        width: 30%;
+        padding: 10px;
+        list-style-position: inside;
+        border: 5px solid rgb(143, 3, 3);
+        border-radius: 20px;
+        box-shadow: 10px 10px 3px;
+        
+      }
+      .catagories li{
+        padding: 10px;
+        margin: 10px;
+        color: rgb(143, 3, 3);
+        background-color: bisque;
+        font-size: large;
+
+      }
+      .order{
+        background-color: rgb(240, 209, 12);
+        width: 30%;
+        padding: 10px;
+        list-style-position: inside;
+        border: 5px solid rgb(143, 3, 3);
+        border-radius: 20px;
+        box-shadow: 10px 10px 3px;
+      }
+      .order li{
+        padding: 10px;
+        margin: 10px;
+        color: rgb(143, 3, 3);
+        background-color: bisque;
+        font-size: large;
+      }
+    </style>
+</head>
+<body>
+<nav>
+  <ol>
+     <li class="navlink"><a href="index.html">Home</a></li>
+     <li class="navlink"><a href="menu.html">Menu</a></li>
+     <li class="navlink"><a href="about.html">About</a></li>
+     <li class="navlink"><a href="contact.html">Contact</a></li>
+     <li class="navlink"><a href="login.html">login</a></li>
+  </ol>
+  </nav>
+  
+  <h2>Our Popular Dishes</h2>
+  <div class="cardcontainer">
+    
+    <div class="card">
+      <img class="cardimg" src="assets/images/burger.jpg" alt="burger">
+      <h1>Burger</h1>
+      <p>classic cheeseburger with fresh veggies and classic sauce.</p>
+      <h3>price: 130₹</h3>
+      <button> Add To Card </button>
+      </div>
+        <div class="card">
+          <img class="cardimg" src="assets/images/fries.jpg" alt="french fries">
+           <h1>French Fries</h1>
+          <p>Fries made with fresh earthy potatos, it's crispy,fresh,and tasty.</p>
+          <h3>price: 130₹</h3>
+          <button> Add To Card </button>
+       </div>
+      <div class="card">
+        <img class="cardimg" src="assets/images/pasta.jpg" alt="pasta">
+          <h1>Pasta</h1>
+          <p>Creamy seafood rigatnoi packed with prawns,mussels, and calamari comfort food at its finest.</p>
+          <h3>price: 299₹</h3>
+          <button> Add To Card </button>
+      </div>
+      <div class="card">
+        <img class="cardimg" src="assets/images/pizza.jpg" alt="pizza">
+        <h1>Pizza</h1>
+        <p>freshly baked cheesy pizza loaded with crunchy capsicum, onions, and zesty pizza sauce.</p>
+        <h3>price: 199₹</h3>
+        <button> Add To Card </button>
+      </div>
+      <div class="card">
+        <img class="cardimg" src="assets/images/sandwitces.jpg" alt="sandwiches">
+        <h1>Sandwiches</h1>
+        <p>Hearty multigrain sandwich stacked with fresh veggies, melted cheese, and signature sauces.</p>
+        <h3>price: 150₹</h3>
+        <button> Add To Card </button>
+      </div>
+     
+  </div>
+  
+  <h2>Food categories</h2>
+     <ul class="catagories">
+      <li>burger</li>
+      <li>french fries</li>
+      <li>pasta</li>
+      <li>pizza</li>
+      <li>sandwiches</li>
+     </ul>
+
+  <h2>How to place an Order</h2>   
+    <ol class="order">
+      <li>Select Your favourite food.</li>
+      <li>Add the item to your cart.</li>
+      <li>Confirm your order.</li>
+      <li>Enjoy your meal.</li>
+    </ol>
+
+  
+</body>
+
+    
+</body>
+</html>
