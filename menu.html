@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiteBox</title>
     <style>
+      body{
+        background-color: blanchedalmond;
+        margin: 0;
+        padding: 0;
+      }
       ol{
-        background-color: antiquewhite;
+        background-color: rgb(144, 20, 12);
         padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
       }
 
       .navlink{
@@ -19,10 +26,10 @@
 
       a{
         text-decoration: none;
-        color: black;
+        color: rgb(240, 210, 18);
       }
       a:hover{
-        color: rgb(153, 12, 12);
+        color: rgb(235, 221, 25);
         font-size: larger;
       }
   
@@ -31,10 +38,11 @@
         flex-wrap: wrap;
         gap: 20px;
         justify-content: left;
-        margin: 1%;
+        margin: 2%;
         padding: 5px;
         padding-left: 15px;
-        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background-color: rgb(143, 3, 3);
         box-shadow: 10px 10px 3px black;
         border: 5px solid rgba(228, 210, 10, 0.973);
@@ -44,7 +52,7 @@
 
       }
       .card{
-        background-color: cornsilk;
+        background-color: rgb(239, 190, 13);
         color: brown;
         width: 30%;
         padding: 10px;
@@ -145,6 +153,13 @@
         <h3>price: 150₹</h3>
         <button> Add To Card </button>
       </div>
+      <div class="card">
+        <img class="cardimg" src="assets/images/brownie.jpg" alt="brownie">
+        <h1>Brownie</h1>
+        <p>Fudgy Chocolate brownie with milk chocolate drizzel and vanilla IceCream, stacked with pure dose of happiness.</p>
+        <h3>price: 230₹</h3>
+        <button> Add To Card </button>
+      </div>
      
   </div>
   
@@ -155,6 +170,7 @@
       <li>pasta</li>
       <li>pizza</li>
       <li>sandwiches</li>
+      <li>Brownie</li>
      </ul>
 
   <h2>How to place an Order</h2>   
