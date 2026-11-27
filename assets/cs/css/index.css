@@ -1,0 +1,101 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #b13309;
+    font-weight: bold;
+}
+
+.welcome-section{
+    background-color: #e8d909;
+    color: #b13309;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}    
+
+.About{
+    background-color:#b13309;
+    color: #e8d909;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Story{
+    background-color:#e8d909;
+    color:#b13309;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.message{
+    background-color:#b13309;
+    color:#e8d909;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Featured{
+    background-color:#e8d909;
+    color:#b13309;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Offer{
+    background-color:#b13309;
+    color:#e8d909;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Information{
+    background-color:#e8d909;
+    color:#b13309;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Notice{
+    background-color:#b13309;
+    color:#e8d909;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Time{
+    background-color:#e8d909;
+    color:#b13309;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.BiteBox{
+    background-color:#b13309;
+    color:#e8d909;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
